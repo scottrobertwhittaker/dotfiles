@@ -1,0 +1,15 @@
+[user]
+    name = Scott Whittaker
+    email = swhittaker4@bloomberg.net
+[alias]
+    ci = commit
+    co = checkout
+    br = branch
+    lg = log --pretty=format:'%C(yellow)%h %Creset %s %C(cyan) %an' --graph
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+    ui = auto
+[pager]
+    status = true
