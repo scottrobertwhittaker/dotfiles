@@ -9,5 +9,5 @@ export HISTSIZE=10000
 # TODO Generate a filename by detecting the local architecture, then source the
 # appropriate file automatically.
 if [ -f "${HOME}/.bashrc.local" ] ; then
-  source "${HOME}/.bashrc.local"
+    source "${HOME}/.bashrc.local"
 fi
