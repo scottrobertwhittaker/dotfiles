@@ -1,0 +1,8 @@
+# Ignore everything...
+*
+
+# ...except files beginning with a dot.
+!.*
+
+# Nevertheless, ignore editor swap files.
+*.swp
