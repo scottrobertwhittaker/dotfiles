@@ -33,3 +33,7 @@ map V <C-v>
 
 " Configure EasyMotion.
 let g:EasyMotion_leader_key = '<Leader>'
+
+" Configure ConqueTerm.
+let g:ConqueTerm_EscKey = '<C-w>'
+cnoreabbrev sh execute 'ConqueTerm bash' <Bar> setlocal nolist
