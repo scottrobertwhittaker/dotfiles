@@ -4,5 +4,8 @@
 # ...except files beginning with a dot.
 !.*
 
-# Nevertheless, ignore editor swap files.
+# Nevertheless, ignore:
 *.swp
+.bash_history
+.lesshst
+.viminfo
