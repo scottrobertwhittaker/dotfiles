@@ -7,6 +7,7 @@ colorscheme darkblue
 filetype plugin indent on
 syntax on
 set number
+set vb
 
 " Set up tabs and whitespace display.
 set autoindent
