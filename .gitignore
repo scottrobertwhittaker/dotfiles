@@ -1,5 +1,5 @@
-# Ignore everything...
-*
+# Ignore everything in the root directory...
+/*
 
 # ...except files beginning with a dot.
 !.*
