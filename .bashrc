@@ -1,5 +1,8 @@
 source ~/.git-completion.bash
-export PS1='[ \h : \w $(__git_ps1 "(%s) ")]\n\u \$ '
+
+export HIGHLIGHT='\[\e[1;97m\]'
+export HIGHLIGHTOFF='\[\e[0m\]'
+export PS1="${HIGHLIGHT}[ \h : \w \$(__git_ps1 \"(%s) \")]\n${HIGHLIGHT}\u \$ ${HIGHLIGHTOFF}"
 
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
