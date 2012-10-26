@@ -11,5 +11,7 @@
     diff = auto
     status = auto
     ui = auto
+[core]
+    filemode = false
 [pager]
     status = true
