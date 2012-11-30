@@ -3,11 +3,12 @@ set shell=bash
 set fileformats=unix
 
 " Set up the window.
+set t_Co=256
 colorscheme darkblue
 filetype plugin indent on
 syntax on
 set number
-set vb
+set mouse=a
 
 " Set up tabs and whitespace display.
 set autoindent
