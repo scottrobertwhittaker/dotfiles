@@ -2,10 +2,14 @@ set nocompatible
 set shell=bash
 set fileformats=unix
 
-" Set up the window.
+" Set up the colour scheme.
+set t_Co=256
 colorscheme darkblue
+
+" Set up the window.
 filetype plugin indent on
 syntax on
+set mouse=a
 set number
 
 " Set up tabs and whitespace display.
