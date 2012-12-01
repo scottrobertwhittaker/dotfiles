@@ -1,4 +1,3 @@
-set -o vi
 source ~/.git-completion.bash
 export PS1='[ \h : \w $(__git_ps1 "(%s) ")]\n\u \$ '
 
