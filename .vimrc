@@ -24,7 +24,6 @@ set colorcolumn=80
 set textwidth=79
 
 " Custom mappings.
-set tildeop
 map <C-n> :next<CR>
 map <C-p> :prev<CR>
 imap <C-space> <C-n>
