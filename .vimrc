@@ -9,6 +9,8 @@ filetype plugin indent on
 syntax on
 set number
 set mouse=a
+set title
+set titleold="terminal"
 
 " Set up tabs and whitespace display.
 set autoindent
