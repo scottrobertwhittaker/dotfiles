@@ -30,3 +30,6 @@ map <C-p> :prev<CR>
 imap <C-space> <C-n>
 map Y y$
 map V <C-v>
+
+" Configure EasyMotion.
+let g:EasyMotion_leader_key = '<Leader>'
