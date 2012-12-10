@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/csapprox"]
 	path = .vim/bundle/csapprox
 	url = http://github.com/godlygeek/csapprox
+[submodule ".vim/bundle/vim-easymotion"]
+	path = .vim/bundle/vim-easymotion
+	url = http://github.com/Lokaltog/vim-easymotion
