@@ -1,6 +1,7 @@
 set nocompatible
 set shell=bash
 set fileformats=unix
+call pathogen#infect()
 
 " Set up the window.
 set t_Co=256
