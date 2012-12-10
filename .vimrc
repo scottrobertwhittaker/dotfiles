@@ -35,3 +35,6 @@ map V <C-v>
 " Set up Pathogen for managing extensions.
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+
+" Configure EasyMotion.
+let g:EasyMotion_leader_key = '<Leader>'
