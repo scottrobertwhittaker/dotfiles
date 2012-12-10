@@ -29,3 +29,9 @@ map <C-p> :prev<CR>
 imap <C-space> <C-n>
 map Y y$
 map V <C-v>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Set up Pathogen for managing extensions.
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
