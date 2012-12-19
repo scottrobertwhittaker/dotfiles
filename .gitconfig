@@ -1,6 +1,5 @@
 [user]
     name = Scott Whittaker
-    email = swhittaker4@bloomberg.net
 [alias]
     ci = commit
     co = checkout
