@@ -18,7 +18,7 @@ set autoindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set list listchars=tab:»·,trail:·
+set list listchars=tab:Â»Â·,trail:Â·
 
 " Deal with line width.
 set textwidth=79
