@@ -24,11 +24,12 @@ set colorcolumn=80
 set textwidth=79
 
 " Custom mappings.
-map <C-n> :next<CR>
-map <C-p> :prev<CR>
-imap <C-space> <C-n>
-map Y y$
-map V <C-v>
+nnoremap <C-n> :next<CR>
+nnoremap <C-p> :prev<CR>
+nnoremap Y y$
+nnoremap V <C-v>
+imap <Nul> <C-space>
+inoremap <C-space> <C-n>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
