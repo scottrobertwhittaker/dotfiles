@@ -6,6 +6,7 @@
     br = branch
     fe = fetch --prune
     lg = log --pretty=format:'%C(yellow)%h %C(red)%d %Creset %s %C(cyan) %an' --graph
+    st = status -sb
 [color]
     branch = auto
     diff = auto
