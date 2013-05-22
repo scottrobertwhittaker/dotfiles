@@ -5,7 +5,7 @@ export HIGHLIGHTOFF='\[\e[0m\]'
 export PS1="${HIGHLIGHT}[ \h : \w \$(__git_ps1 \"(%s) \")]\n${HIGHLIGHT}\u \$ ${HIGHLIGHTOFF}"
 
 export HISTCONTROL=erasedups
-export HISTSIZE=10000
+export HISTSIZE=100000
 
 # If a local supplement to the '.bashrc' exists, source it.
 if [ -f "${HOME}/.bashrc.`uname`" ] ; then
