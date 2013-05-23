@@ -8,6 +8,7 @@ set t_Co=256
 colorscheme darkblue
 filetype plugin indent on
 syntax on
+set hls
 set number
 set mouse=a
 set title
