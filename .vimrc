@@ -9,6 +9,7 @@ colorscheme darkblue
 " Set up the window.
 filetype plugin indent on
 syntax on
+set hls
 set mouse=a
 set number
 
