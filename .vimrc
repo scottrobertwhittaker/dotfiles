@@ -3,27 +3,29 @@ set shell=bash
 set fileformats=unix
 call pathogen#infect()
 
-" Set up the window.
+" Set up CSApprox.
 set t_Co=256
 colorscheme darkblue
+
+" Set up the window.
 filetype plugin indent on
 syntax on
 set hls
-set number
 set mouse=a
+set number
 set title
 set titleold="terminal"
 
 " Set up tabs and whitespace display.
 set autoindent
 set expandtab
-set tabstop=4
-set shiftwidth=4
 set list listchars=tab:»·,trail:·
+set shiftwidth=4
+set tabstop=4
 
 " Deal with line width.
-set textwidth=79
 set colorcolumn=80
+set textwidth=79
 
 " Custom mappings.
 nnoremap <C-n> :next<CR>
