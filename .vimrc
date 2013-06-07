@@ -10,6 +10,7 @@ colorscheme darkblue
 filetype plugin indent on
 syntax on
 set hls
+set laststatus=2
 set mouse=a
 set number
 
