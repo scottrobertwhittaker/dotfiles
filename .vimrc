@@ -39,3 +39,7 @@ inoremap <C-space> <C-n>
 
 " Configure EasyMotion.
 let g:EasyMotion_leader_key = '<Leader>'
+
+" Configure CtrlP.
+let g:ctrlp_map = '<C-o>'
+let g:ctrlp_working_path_mode=0
