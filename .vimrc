@@ -40,5 +40,9 @@ inoremap <C-space> <C-n>
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+" Configure CtrlP.
+let g:ctrlp_map = '<C-o>'
+let g:ctrlp_working_path_mode=0
+
 " Configure EasyMotion.
 let g:EasyMotion_leader_key = '<Leader>'
