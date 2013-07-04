@@ -4,6 +4,9 @@
 [submodule ".vim/bundle/vim-easymotion"]
 	path = .vim/bundle/vim-easymotion
 	url = http://github.com/Lokaltog/vim-easymotion
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = http://github.com/scottrobertwhittaker/vim-markdown
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = http://github.com/tpope/vim-pathogen
