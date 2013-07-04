@@ -4,8 +4,17 @@
 # ...except files beginning with a dot.
 !.*
 
-# Nevertheless, ignore:
 *.swp
 .bash_history
+.cache
+.fontconfig
+.gem
+.irb_history
 .lesshst
+.ssh
 .viminfo
+
+# Mac-specific junk
+.CFUserTextEncoding
+.DS_Store
+.finf
