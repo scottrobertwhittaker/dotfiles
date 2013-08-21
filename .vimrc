@@ -16,6 +16,7 @@ set mouse=a
 set number
 set title
 set titleold="terminal"
+set wildmenu
 
 " Set up tabs and whitespace display.
 set autoindent
