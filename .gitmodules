@@ -7,3 +7,6 @@
 [submodule ".vim/bundle/ctrlp"]
 	path = .vim/bundle/ctrlp
 	url = http://github.com/kien/ctrlp.vim
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = http://github.com/scottrobertwhittaker/vim-markdown
