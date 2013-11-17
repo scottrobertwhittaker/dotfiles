@@ -36,6 +36,7 @@ inoremap <C-space> <C-n>
 " Set up Pathogen.
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+Helptags
 
 " Configure CSApprox.
 set t_Co=256
