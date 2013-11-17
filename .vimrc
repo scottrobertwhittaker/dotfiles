@@ -1,11 +1,6 @@
 set nocompatible
 set shell=bash
 set fileformats=unix
-call pathogen#infect()
-
-" Set up CSApprox.
-set t_Co=256
-colorscheme darkblue
 
 " Set up the window.
 filetype plugin indent on
@@ -37,6 +32,14 @@ nnoremap V <C-v>
 nnoremap <C-v> V
 imap <Nul> <C-space>
 inoremap <C-space> <C-n>
+
+" Set up Pathogen.
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
+" Configure CSApprox.
+set t_Co=256
+colorscheme darkblue
 
 " Configure EasyMotion.
 let g:EasyMotion_leader_key = '<Leader>'

@@ -1,3 +1,6 @@
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = http://github.com/tpope/vim-pathogen
 [submodule ".vim/bundle/csapprox"]
 	path = .vim/bundle/csapprox
 	url = http://github.com/godlygeek/csapprox
