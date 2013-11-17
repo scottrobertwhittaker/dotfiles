@@ -40,6 +40,7 @@ inoremap <C-space> <C-n>
 " Set up Pathogen for managing extensions.
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+Helptags
 
 " Configure CtrlP.
 let g:ctrlp_map = '<C-o>'
