@@ -35,6 +35,9 @@ nnoremap <C-v> V
 imap <Nul> <C-space>
 inoremap <C-space> <C-n>
 
+" Load MatchIt for traversing `do` / `end` blocks &c with the % key.
+runtime macros/matchit.vim
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Set up Pathogen for managing extensions.
