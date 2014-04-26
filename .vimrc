@@ -51,3 +51,7 @@ let g:ctrlp_working_path_mode=0
 
 " Configure EasyMotion.
 let g:EasyMotion_leader_key = '<Leader>'
+
+" Configure Slime.
+let g:slime_target = "tmux"
+let g:slime_default_config = {"socket_name": "default", "target_pane": "1"}
