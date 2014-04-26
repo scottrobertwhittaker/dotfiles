@@ -1,5 +1,7 @@
 source ~/.git-completion.bash
 
+export EDITOR='vim'
+
 export HIGHLIGHT='\[\e[1;97m\]'
 export HIGHLIGHTOFF='\[\e[0m\]'
 export PS1="${HIGHLIGHT}[ \h : \w \$(__git_ps1 \"(%s) \")]\n${HIGHLIGHT}\u \$ ${HIGHLIGHTOFF}"
