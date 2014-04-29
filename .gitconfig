@@ -8,6 +8,7 @@
     lg = log --pretty=format:'%C(yellow)%h %C(red)%d %Creset %s %C(cyan) %an' --graph
     pu = pull --rebase --prune
     st = status -sb
+    sublog = submodule foreach git lg -n 10
 [color]
     branch = auto
     diff = auto
