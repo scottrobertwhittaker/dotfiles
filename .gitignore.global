@@ -1,0 +1,6 @@
+# Editor backups
+*.swp
+
+# Mac-specific junk
+.CFUserTextEncoding
+.DS_Store

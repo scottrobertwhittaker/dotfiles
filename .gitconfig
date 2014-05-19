@@ -16,6 +16,7 @@
     ui = auto
 [core]
     editor = vim
+    excludesfile = ~/.gitignore.global
     filemode = false
 [include]
     path = ~/.gitconfig.local
