@@ -30,8 +30,6 @@ set textwidth=79
 nnoremap <C-n> :next<CR>
 nnoremap <C-p> :prev<CR>
 nnoremap Y y$
-nnoremap V <C-v>
-nnoremap <C-v> V
 imap <Nul> <C-space>
 inoremap <C-space> <C-n>
 
