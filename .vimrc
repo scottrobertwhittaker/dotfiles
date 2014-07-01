@@ -2,10 +2,6 @@ set nocompatible
 set shell=bash
 set fileformats=unix
 
-" Set up the colour scheme.
-set t_Co=256
-colorscheme darkblue
-
 " Set up the window.
 filetype plugin indent on
 syntax on
@@ -58,3 +54,9 @@ autocmd FileType clojure RainbowParenthesesLoadBraces
 " Configure Slime.
 let g:slime_target = "tmux"
 let g:slime_default_config = {"socket_name": "default", "target_pane": "1"}
+
+" Configure Solarized.
+let g:solarized_menu=0
+set t_Co=256
+set background=dark
+colorscheme solarized
