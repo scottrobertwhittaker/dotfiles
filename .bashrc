@@ -9,6 +9,9 @@ export PS1="${HIGHLIGHT}[ \h : \w \$(__git_ps1 \"(%s) \")]\n${HIGHLIGHT}\u \$ ${
 export HISTCONTROL=erasedups
 export HISTSIZE=100000
 
+# Turn off software flow control to avoid annoyance.
+stty -ixon
+
 # If a local supplement to the '.bashrc' exists, source it.
 if [ -f "${HOME}/.bashrc.`uname`" ] ; then
     source "${HOME}/.bashrc.`uname`"
