@@ -4,7 +4,7 @@
     ci = commit
     co = checkout
     br = branch
-    fe = fetch --prune
+    fe = fetch --all --prune
     lg = log --pretty=format:'%C(yellow)%h %C(red)%d %Creset %s %C(cyan) %an' --graph
     pu = pull --rebase --prune
     st = status -sb
