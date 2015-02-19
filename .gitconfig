@@ -7,6 +7,7 @@
     fe = fetch --all --prune
     lg = log --pretty=format:'%C(yellow)%h %C(red)%d %Creset %s %C(cyan) %an' --graph
     pu = pull --rebase --prune
+    ri = rebase --interactive --autosquash
     st = status -sb
     sublog = submodule foreach git lg -n 10
 [color]
