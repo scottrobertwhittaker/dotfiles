@@ -4,6 +4,9 @@
 [submodule ".vim/bundle/rainbow_parentheses"]
 	path = .vim/bundle/rainbow_parentheses
 	url = https://github.com/scottrobertwhittaker/vim-rainbow-parentheses
+[submodule ".vim/bundle/rust.vim"]
+	path = .vim/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim
 [submodule ".vim/bundle/tmux-complete"]
 	path = .vim/bundle/tmux-complete
 	url = https://github.com/wellle/tmux-complete.vim
