@@ -10,6 +10,7 @@ set laststatus=2
 set mouse=a
 set number
 set wildmenu
+set splitbelow
 
 " Set up tabs and whitespace display.
 set autoindent
